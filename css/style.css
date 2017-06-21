@@ -1,0 +1,114 @@
+body, h1, h2{
+    font-family: "Raleway", sans-serif
+}
+body, html{
+    height: 100%
+}
+#para1 {
+    text-align: justify;
+    width: 900px;
+    margin: auto;
+}
+.img1 {
+    background-image: url("../img/pirmas.jpg");
+    min-height: 100%;
+    min-width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.textonimage{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+.center {
+    text-align: center !important;
+}
+.pink1 {
+    background-color: #f2e1e1!important;
+}
+.pink2 {
+    background-color: #ffdddd;
+}
+.grey {
+    color: #757575;
+}
+.block1{
+    max-width: 100%;
+}
+.img3 {
+    background-image: url("../img/trecias.jpg");
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.block2 {
+    position: relative;
+}
+.padding64{
+    padding-top: 64px !important;
+    padding-bottom: 64px !important;
+}
+.fixedimage {
+    max-width: 980px;
+    margin:auto;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 36px;
+}
+.button1 {
+    display: inline-block;
+    outline: 0;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    color: white;
+    background-color: black;
+    padding: 12px 24px;
+    border-radius: 5px;
+}
+.button2 {
+    display: inline-block;
+    outline: 0;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    color: white;
+    background-color: #f44336;
+    padding: 12px 24px;
+    border-radius: 5px;
+    opacity: 0.60;
+    font-size: 24px;
+}
+.button{
+    display: inline-block;
+    outline: 0;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+}
+.float{
+    float: left;
+    width: 50%;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.bottom {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
