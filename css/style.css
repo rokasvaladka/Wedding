@@ -195,7 +195,7 @@ h1 {
     color: black;
     border: 60px;
     width: 600px;
-    height: 300px;
+    height: 350px;
     margin: auto;
 }
 .yes {
@@ -207,7 +207,7 @@ h1 {
     color: white;
     background-color: Green;
     padding: 12px 24px;
-    width: 300px;
+    width: 50%;
 }
 .no {
     display: inline-block;
@@ -218,8 +218,36 @@ h1 {
     color: white;
     background-color: red;
     padding: 12px 24px;
-    width: 300px;
+    width: 50%;
+}
+.yes:hover, .no:hover{
+    display: inline-block;
+    outline: 0;
+    vertical-align: middle;
+    overflow: hidden;
+    text-align: center;
+    white-space: nowrap;
+    color: black;
+    background-color: #cccccc;
+    text-decoration: none;
+
 }
 input {
     width: 400px;
+}
+.happy{
+    background-image: url("../img/happy.jpg");
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+    width: 600px;
+    height: 350px;
+}
+.sad{
+    background-image: url("../img/sad.jpg");
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+    width: 600px;
+    height: 350px;
 }
